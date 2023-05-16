@@ -427,6 +427,9 @@ body {
   .banner__btn a p {
     font-size: 2rem;
   }
+  .banner__subtext i {
+    right: 3rem;
+  }
   .banner__subtext ul {
     margin: 1rem 1rem;
     padding: 1rem 2rem;
@@ -448,13 +451,12 @@ body {
   }
 }
 
-.services {
+.services .container {
   padding: 0 2rem;
 }
 .services__wrapper {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 2rem;
 }
 .services__item {
   text-align: center;

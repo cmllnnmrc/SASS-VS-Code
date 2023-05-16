@@ -147,6 +147,10 @@
         }
 
         &__subtext{
+            i{
+                right: 3rem;
+            }
+
             ul{
                 margin: 1rem 1rem;
                 padding: 1rem 2rem;
@@ -177,12 +181,13 @@
 }
 
 .services{
-    padding: 0 2rem;
+    .container{
+        padding: 0 2rem;
+    }
 
     &__wrapper{
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 2rem;
     }
 
     &__item{
