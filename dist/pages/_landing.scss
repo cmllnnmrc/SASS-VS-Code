@@ -173,7 +173,6 @@
 
         &__img{
             img{
-                justify-self: flex-end;
                 width: 80rem;
             }
         }
@@ -390,9 +389,13 @@
         }
 
         &:nth-child(4){
-            img:hover{
+            img{
                 transition: .5s ease;
-                transform: scale(1.1);
+
+                &:hover{
+                    transition: .5s ease;
+                    transform: scale(1.1);
+                }
             }
         }
     }
@@ -427,6 +430,10 @@
         a{
             font-size: 1.3rem;
             color: $clr-accent;
+
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 
@@ -711,7 +718,11 @@
         }
 
         a{
-            color: $clr-accent
+            color: $clr-accent;
+
+            &:hover{
+                text-decoration: underline;
+            }
         }
 
         &:last-child{
